@@ -1,0 +1,10 @@
+<h1>URL Shortener</h1>
+<p>Put in a web url and get it shortened</p>
+
+<%= form_tag "url_path/create" do %>
+  <%= text_field_tag "user_url" %>
+  <!-- TODO: submit? -->
+  <%= submit_tag %>
+<% end %>
+
+<%#= link_to 'Shortned Url', new_url_path %>
